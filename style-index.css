@@ -1,0 +1,249 @@
+/*Body layout */
+* {
+ box-sizing: border-box;
+
+}
+body{
+ font-family: sans-serif;;
+ background-repeat:repeat;
+ line-height: 24px;
+}
+
+div#wrapper , footer , section{
+ margin: auto;
+ width: 1000px;
+ background-color: white;
+ padding: 30px;
+}
+nav {
+ background-color: pink;
+ padding: 10px;
+ margin: auto;
+ width: 1000px
+}
+
+nav a {
+ color: deeppink;
+ font-weight: bold;
+ text-decoration: none;
+ padding-right: 30px;
+ border-right: 2px;
+}
+
+/*over ons and contact*/
+.map {
+ width: 500px;
+ height: 300px;
+ border: 0px;
+ frameborder: "0";
+ border: 0px;
+}
+
+.ad {
+ float: right;
+ padding-left: 20px;
+ width: 40%;
+}
+
+.me1 , .me2 {
+ width: 400px;
+ height: 300px;
+ border-style: double;
+ border-color: lightskyblue ;
+}
+.me3 , .me4{
+ float: right;
+ width: 50%;
+ padding-top: 100px;
+ padding-right: 20px;
+
+}
+.formulier {
+
+}
+/*sport*/
+
+.grid-container {
+ display: grid;
+ grid-template-columns: auto auto auto;
+ grid-gap: 10px;
+ padding: 10px;
+}
+.grid {
+ display: grid;
+ grid-template-columns: auto auto auto;
+ grid-gap: 200px;
+ padding: 10px;
+}
+/*Footer*/
+footer{
+ background-color:grey;
+ color: white;
+}
+
+footer a {
+ color: white;
+ text-decoration: none;
+}
+
+
+/*Body layout */
+* {
+ box-sizing: border-box;
+}
+body{
+ font-family: sans-serif;;
+ background-repeat:repeat;
+ line-height: 24px;
+}
+img.article {
+ margin-top: 2px;
+ margin-bottom: 20px;
+ width: 303px;
+ vertical-align: top;
+}
+/*sectie article*/
+article {
+ display: inline-block;
+ width: 33%;
+ padding-right: 15px;
+ vertical-align: top;
+
+}
+
+
+div#wrapper , footer , section{
+ margin: auto;
+ width: 1000px;
+ background-color: white;
+ padding: 20px;
+}
+nav {
+ background-color: pink;
+ padding: 10px;
+ margin: auto;
+ width: 1000px
+}
+
+nav a {
+ color: deeppink;
+ font-weight: bold;
+ text-decoration: none;
+ padding-right: 30px;
+ border-right: 2px;
+}
+
+/*Section1 */
+
+.text-link{
+ text-decoration: none;
+ color: red;
+}
+/* choco cookie recept images*/
+.img-recepten{
+ margin-top: -400px;
+}
+.column{
+ margin-top: 200px;
+ float: right;
+}
+.cookie-img-style.img{
+ border-color: black;
+}
+.cookie-img-style{
+
+ padding-left: 500px;
+ margin-top: -900px;
+ padding-bottom: 300px;
+
+}
+.biryani-img-style{
+ padding-left: 500px;
+ margin-top: -100px;
+ padding-bottom: 150px;
+}
+.biryani-img-style.img{
+ border-radius: 30px;
+ border-collapse: collapse;
+}
+.biryani{
+ padding-left: 700px;
+ margin-top: -1300px;
+ padding-bottom: 130px;
+ border-radius: 30px;
+}
+
+.text-lenght {
+ width: 430px;
+ padding-right: 30px;
+}
+.kebab-img{
+margin-left:700px;
+ margin-top: -1050px;
+ padding-bottom: 600px;
+}
+img{
+ border-radius: 50px;
+}
+.kebab-img-style{
+ padding-left: 450px;
+ margin-top: -350px;
+ padding-bottom: 600px;
+}
+
+/* header image*/
+
+
+.text-header{
+ color: black;
+ width: auto;
+ height: auto;
+ font-size: 700%;
+ position: initial;
+ top: 10%;
+ text-align: center;
+}
+
+
+
+/*Footer*/
+footer{
+ background-color:grey;
+ color: white;
+}
+
+footer a {
+ color: white;
+ text-decoration: none;
+}
+/* slidewshow*/
+.slideshow {
+
+ margin-top: -750px;
+ padding-left: 630px;
+
+ box-sizing:border-box;
+ position:absolute;
+}
+
+.slideshow img {
+ position:absolute;
+ animation:slideshow 20s infinite;
+ opacity:0;
+ padding-right: 100px;
+ padding-top:60px;
+
+}
+
+@keyframes slideshow {
+ 25%{opacity:1;
+ }
+ 45%{
+  opacity:0;
+ }
+}
+
+.slideshow img:nth-child(4){animation-delay:0s;}
+.slideshow img:nth-child(3){animation-delay:5s;}
+.slideshow img:nth-child(2){animation-delay:10s;}
+.slideshow img:nth-child(1){animation-delay:15s;}

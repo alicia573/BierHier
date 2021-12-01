@@ -1,0 +1,88 @@
+/*Body layout */
+* {
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;;
+    background-repeat:repeat;
+    line-height: 24px;
+}
+
+div#wrapper , footer , section{
+    margin: auto;
+    width: 1000px;
+    background-color: white;
+    padding: 30px;
+}
+nav {
+    background-color: pink;
+    padding: 10px;
+    margin: auto;
+    width: 1000px
+}
+
+nav a {
+    color: deeppink;
+    font-weight: bold;
+    text-decoration: none;
+    padding-right: 30px;
+    border-right: 2px;
+}
+
+/*over ons and contact*/
+.map {
+    width: 500px;
+    height: 300px;
+    border: 0px;
+    frameborder: "0";
+    border: 0px;
+}
+
+.ad {
+    float: right;
+    padding-left: 20px;
+    width: 40%;
+}
+
+.me1 , .me2 {
+    width: 400px;
+    height: 300px;
+    border-style: double;
+    border-color: lightskyblue ;
+}
+.me3 , .me4{
+    float: right;
+    width: 50%;
+    padding-top: 100px;
+    padding-right: 20px;
+
+}
+.formulier {
+
+}
+/*sport*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 200px;
+    padding: 10px;
+}
+/*Footer*/
+footer{
+    background-color:grey;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
